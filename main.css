@@ -1,77 +1,56 @@
-
-html, 
-body {
+html, body {
   height: 100%;
-  font-size: 1em; 
+  font-size: 1em;
 }
 body {
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    background-color: #14d990;
-    /* flex-direction: row; */
-  }
-  
-  .container {
-    text-align: center;
-    background-color: #ffffff; 
-    width: 800px;
-    
-  }
-
-  li{
-    padding: 10px;
-  }
-  
-
-
-
-#list-header{
-
-display: block;
-background-color:white;
-text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #14d990;
+ /* flex-direction: row;
+  */
 }
-
+.container {
+  text-align: center;
+  background-color: #ffffff;
+  width: 800px;
+}
+li{
+  padding: 10px;
+}
+#list-header{
+  display: block;
+  background-color:white;
+  text-align: center;
+}
 #btn{
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 15px 25px;
-    text-align: center;
-    font-size: 16px;
-    /* cursor: pointer; */
-
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+ /* cursor: pointer;
+  */
 }
 /* .items-added{
-background-color: lawngreen;
-    text-align: center;
-    
-} */
-
-
-li:nth-child(odd) { 
-    background:lightblue;
- }
-
- 
- button.close {
-    cursor: pointer;
-    text-align: center;
+  background-color: lawngreen;
+  text-align: center;
+}
+*/
+li:nth-child(odd) {
+  background:lightblue;
+}
+button.close {
+  cursor: pointer;
+  text-align: center;
   float: right;
-    
-   
-  }
-   
- input.checked{
-text-decoration: line-through;
-color: turquoise;
+}
+input.checked{
+  text-decoration: line-through;
+  color: turquoise;
   float: left;
- }
-
- ul > input{
-float:left;
-
- }
- 
-
+}
+ul > input{
+  float:left;
+}
