@@ -1,6 +1,6 @@
 //javascript document
 var Delbtn = document.getElementsByClassName("close");
-
+document.getElementById("date").innerHTML = Date();
 let button = document.querySelector("button");
 let listitems = document.getElementsByClassName("listitems");
 
