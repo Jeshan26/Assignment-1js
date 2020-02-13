@@ -4,7 +4,7 @@ document.getElementById("date").innerHTML = Date();
 let button = document.querySelector("button");
 let listitems = document.getElementsByClassName("listitems");
 var ul = document.querySelectorAll("div")[2].firstElementChild;
-
+var ul2 = document.querySelectorAll("div")[2].lastElementChild;
 //  ding sound object created and used when item is checked
 var ding = new Audio();
 ding.src = "sound.mp3";
@@ -59,12 +59,14 @@ function addelbtn(li) {
 // function that checks weather checkbox is checked or not
 function check(e) {
     if (e.target.checked) {
-        ul.appendChild(this.parentNode);
-        this.parentNode.style.color = "green";
+        ul2.appendChild(this.parentNode);
+        this.parentNode.style.color = "black";
         this.parentNode.style.fontWeight = "900";
         this.parentNode.style.textTransform = "capitalize";
-
+        this.parentNode.style.backgroundColor="lightgreen";
         this.parentNode.style.textDecoration = "line-through";
+        this.parentNode.style.borderColor = "black";
+        this.parentNode.style.border = "thick solid #0000FF";
         ding.play(); // ding sound is played when item is checked
 
 
@@ -73,6 +75,9 @@ function check(e) {
         this.parentNode.style.fontWeight = "100";
         this.parentNode.style.color = "black";
         this.parentNode.style.textTransform = "none";
+        this.parentNode.style.backgroundColor="lightblue";
+        this.parentNode.style.border = "thick solid #000000";
+        ul.appendChild(this.parentNode);
     }
 
 
