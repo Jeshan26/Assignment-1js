@@ -27,7 +27,6 @@ function ADD(e) {
         addelbtn(li);
         li.setAttribute("class", "listitems");
         clear();
-
     }
 }
 
