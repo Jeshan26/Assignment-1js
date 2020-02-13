@@ -84,7 +84,7 @@ function check(e) {
 }
 
 //deleting the parent element
-function deletet() {
+function deletet(e) {
     if (confirm("Are you sure you want to delete")) { // dialog box to confirm before deleting
         var div = this.parentElement;
         div.style.display = "none";
