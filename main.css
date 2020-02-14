@@ -56,3 +56,7 @@ input.checked{
 ul > input{        
   float:left;       
 }
+/* close button size would increase on hovering */
+button.close:hover{         
+  width: 60px;
+}
