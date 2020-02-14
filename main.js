@@ -53,7 +53,7 @@ function addelbtn(li) {
     deletebtn.style.color = "red";
     li.appendChild(deletebtn);
 
-    deletebtn.onclick = deletet;
+    deletebtn.onclick = deletet;        /* registering event*/ 
 }
 // function that checks weather checkbox is checked or not
 function check(e) {
