@@ -1,4 +1,6 @@
-html, body {
+/* css document */
+
+html, body {   
   height: 100%;
   font-size: 1em;
 }
@@ -10,21 +12,21 @@ body {
  /* flex-direction: row;
   */
 }
-.container {
+.container {                               /* designing main div */
   text-align: center;
   background-color: #ffffff;
   width: 800px;
 }
 li{
-  padding: 10px;
+  padding: 10px;               /* padding to li so that it is separated from other li's  */
 }
-#list-header{
+#list-header{                         /*designing first div */
   display: block;
   background-color:white;
   text-align: center;
 }
 #btn{
-  background-color: #4CAF50;
+  background-color: #4CAF50;                /*  designing add button*/
   border: none;
   color: white;
   padding: 15px 25px;
@@ -38,19 +40,19 @@ li{
   text-align: center;
 }
 */
-li:nth-child(odd) {
+li:nth-child(odd) {         /* giving  white color to odd elements  */
   background:lightblue;
 }
-button.close {
+button.close {                /*  designing button */
   cursor: pointer;
   text-align: center;
   float: right;
 }
-input.checked{
-  text-decoration: line-through;
+input.checked{                        
+  text-decoration: line-through;               /*designng the checkbox  */
   color: turquoise;
   float: left;
 }
-ul > input{
-  float:left;
+ul > input{        
+  float:left;       
 }

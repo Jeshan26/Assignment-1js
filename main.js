@@ -69,14 +69,14 @@ function check(e) {
         ding.play(); // ding sound is played when item is checked
 
 
-    } else {
+    } else {        // basically  undo the styling
         this.parentNode.style.textDecoration = "none";
         this.parentNode.style.fontWeight = "100";
         this.parentNode.style.color = "black";
         this.parentNode.style.textTransform = "none";
         this.parentNode.style.backgroundColor="lightblue";
         this.parentNode.style.border = "thick solid #000000";
-        ul.appendChild(this.parentNode);
+        ul.appendChild(this.parentNode);              // changing li's position if unchecked 
     }
 
 
